@@ -8,3 +8,4 @@ class Dog
 end
 
 snoopy = Dog.new("Ralph")
+snoopy.name
