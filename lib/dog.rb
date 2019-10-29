@@ -1,7 +1,6 @@
 require 'pry'
 
 class Dog
-  attr_reader :name
   
   def initialize(name, breed = "Mutt")
     @name = name
@@ -9,6 +8,5 @@ class Dog
   end
 end
 
-snoopy = Dog.new("Snoopy")
-binding.pry
-snoopy.name
+
+
