@@ -10,4 +10,5 @@ class Dog
 end
 
 snoopy = Dog.new("Snoopy")
+binding.pry
 snoopy.name
